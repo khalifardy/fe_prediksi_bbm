@@ -1,0 +1,22 @@
+{
+  "name": "frontend_prediksi_konsumsi_bbm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build && npm run tailwind:build",
+    "start": "next start",
+    "tailwind:build": "postcss styles/tailwind.css -o public/tailwind.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.3",
+    "next": "^14.0.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "tailwindcss": "^3.4.0"
+  }
+}
